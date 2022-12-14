@@ -29,7 +29,7 @@ module.exports = {
     }
   },
 
-  viewStudent: async (req, res) => {
+  viewStudent: async (req, res) => { 
     try {
       let data = req.query;
       let userId = req.payLoad.userId;
